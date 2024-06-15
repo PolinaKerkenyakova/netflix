@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#__next,  /* #__next - default roor element used by Next.JS */
+html,
+body {
+  @apply h-full;
+}
+
+body {
+  @apply bg-zinc-900 overflow-x-hidden;
+}
